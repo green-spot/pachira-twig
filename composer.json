@@ -1,0 +1,21 @@
+{
+  "name": "green-spot/pachira-twig",
+  "description": "Twig for Pachira",
+  "keywords": [],
+  "type": "library",
+  "license": "MIT",
+  "homepage": "https://github.com/green-spot/pachira-twig",
+  "authors": [
+    {
+      "name": "green spot",
+      "email": "in.green.spot@gmail.com"
+    }
+  ],
+  "require": {
+    "green-spot/pachira": "^0.1",
+    "twig/twig": "^3.4"
+  },
+  "autoload": {
+    "files": ["pachira-twig.php"]
+  }
+}
