@@ -5,6 +5,7 @@ require_once __DIR__ . "/route.php";
 
 Pachira::run([
   "twig" => [
-    "directory" => __DIR__ . "/views/"
+    "directory" => __DIR__ . "/views/",
+    "cache" => __DIR__ . "/.cache/twig/"
   ],
 ]);
